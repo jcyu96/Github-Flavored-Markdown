@@ -1,7 +1,8 @@
 README  
 ![badge](https://img.shields.io/badge/%C2%A9-jcyu96-DarkOrange "作者")
 ====
-主要记录一些不太容易查到的GFM(Github Flavored Markdown)语法规则，充当个人的markdown备忘录，所有内容完全由个人编辑记录。每个语法点都是由基本语法格式、终端显示效果和一些备注说明构成的，行文不当之处可以提出一起讨论。内容持续更新中......  
+主要记录一些不太容易查到的GFM(Github Flavored Markdown)语法规则，充当个人的markdown备忘录，所有内容完全由个人编辑记录。每个语法点都是由基本语法格式、终端显示效果和一些备注说明构成的，行文不当之处可以提出一起讨论。  
+内容持续更新中......  
 ***
 ## 目录  
 [**1. 小色块**](#1-小色块)  
@@ -37,7 +38,7 @@ README
 ![badge](https://img.shields.io/badge/%C2%A9-可修改-DarkOrange "标签")  
 
 **备注：**  
-[]内表示标签无法显示时显示的内容。后面网址最后一部分`%C2%A9-可修改-DarkOrange`中，第一个参数表示标签框前一半的内容，第二个参数表示标签框后一半的内容，第三个参数控制标签框颜色，当然也可以在[https://shields.io/](https://shields.io/)中的*Your Badge*一栏输入相应参数生成专属url。这里提供一个颜色及对应英文名字查询的网站：[https://html-color-codes.info/color-names/](https://html-color-codes.info/color-names/)。
+[]内表示标签无法显示时显示的内容。后面网址最后一部分`%C2%A9-可修改-DarkOrange`中，第一个参数表示标签框前一半的内容，第二个参数表示标签框后一半的内容，第三个参数控制标签框颜色，当然也可以在[https://shields.io/](https://shields.io/)中的*Your Badge*一栏输入相应参数生成标签的url。这里提供一个颜色及对应英文名字查询的网站：[https://html-color-codes.info/color-names/](https://html-color-codes.info/color-names/)。
 ***
 ### 3. 标题锚点
 **语法：**  
@@ -46,7 +47,7 @@ README
 ```
 **效果：**  
 
-[回到顶部](#readme)
+[回到顶部](#readme)  
 
 **备注：**  
 文本1表示含跳转位置处链接的文本，可任意命名。文本2表示文本1链接中的目标位置，需要和目标位置处加#的标题内容保持一致。输入文本2时，以下几个规则需要注意：**①字母全部转换成小写形式；②文本中的空格用 - 代替；③文本中多级序号的 . 直接去掉；④文本中的\!\[\]\(\)可以直接去掉**。
@@ -75,9 +76,7 @@ README
 **效果：**  
 
 ![湄南河](https://github.com/yujia96/Github-Flavored-Markdown/blob/master/Examples/%E6%B9%84%E5%8D%97%E6%B2%B3.jpg)  
-
 <img src="https://github.com/yujia96/Github-Flavored-Markdown/blob/master/Examples/%E6%B9%84%E5%8D%97%E6%B2%B3.jpg" width="100" height="100" alt="湄南河"/>  
-
 [湄南河](https://github.com/yujia96/Github-Flavored-Markdown/blob/master/Examples/%E6%B9%84%E5%8D%97%E6%B2%B3.jpg)  
 
 **备注：**  
