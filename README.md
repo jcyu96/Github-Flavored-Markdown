@@ -13,9 +13,10 @@ README
 
 [**4. 添加表情**](#4-添加表情)  
 
-[**5. 插入图片和文本超链接**](#5-插入添加图片和文本超链接)  
+[**5. 插入图片和文本超链接**](#5-插入图片和文本超链接)  
 
-[**6. 鼠标悬停显示**](#6-鼠标悬停显示)
+[**6. 鼠标悬停显示**](#6-鼠标悬停显示)  
+
 ***
 ### 1. 小色块
 **语法：**  
@@ -76,11 +77,15 @@ README
 ### 5. 插入图片和文本超链接
 **语法：**  
 ```markdown
-![湄南河](https://github.com/yujia96/Github-Flavored-Markdown/blob/master/Examples/%E6%B9%84%E5%8D%97%E6%B2%B3.jpg)  
+基本格式：  
+![可替换文本](图片的url)  
+<img src="图片的url" width="200" height="300" alt="可替换文本"/>  
+[链接文本](外链url)  
 
-<img src="https://github.com/yujia96/Github-Flavored-Markdown/blob/master/Examples/%E6%B9%84%E5%8D%97%E6%B2%B3.jpg" width="200" height="400" alt="湄南河"/>  
-
-[湄南河](https://github.com/yujia96/Github-Flavored-Markdown/blob/master/Examples/%E6%B9%84%E5%8D%97%E6%B2%B3.jpg)  
+示例：  
+![湄南河](https://github.com/yujia96/Github-Flavored-Markdown/blob/master/Examples/%E6%B9%84%E5%8D%97%E6%B2%B3.jpg)
+<img src="https://github.com/yujia96/Github-Flavored-Markdown/blob/master/Examples/%E6%B9%84%E5%8D%97%E6%B2%B3.jpg" width="200" height="400" alt="湄南河"/>
+[湄南河](https://github.com/yujia96/Github-Flavored-Markdown/blob/master/Examples/%E6%B9%84%E5%8D%97%E6%B2%B3.jpg)
 ```
 **效果：**  
 
@@ -89,17 +94,25 @@ README
 [湄南河](https://github.com/yujia96/Github-Flavored-Markdown/blob/master/Examples/%E6%B9%84%E5%8D%97%E6%B2%B3.jpg)  
 
 **备注：**  
-插入图片和添加文本超链接的语法表达其实很相似，两者之间只是差了一个'!'。第一个语法是插入图片常见的表达式，第二个语法中width和height两个参数可以控制插入图片的大小，另外这两个语法中的“湄公河”都是图片无法显示时显示的文本。第三个语法是给[]中的文本添加超链接，链接地址放在()里面。
+插入图片和添加文本超链接的语法表达其实很相似，两者之间只是差了一个'!'。第一个语法是插入图片常见的表达式，第二个语法中width和height两个参数可以控制插入图片的大小，前面两个语法中的“湄公河”都是图片无法显示时显示的文本。第三个语法是给[]中的文本添加超链接，外链地址放在[]后面的()里面。
 ***
 ### 6. 鼠标悬停显示
 **语法：**  
 ```markdown
-:open_mouth:
+基本格式：  
+[链接文本](外链url "悬停显示的文本")  
+![可替换文本](图片的url "悬停显示的文本")  
+
+示例：  
+[点击查看**jcyu96**的GitHub主页](https://github.com/yujia96 "点击跳转")  
+![加载失败请刷新](https://github.com/yujia96/Github-Flavored-Markdown/blob/master/Examples/%E6%B9%84%E5%8D%97%E6%B2%B3.jpg "这是湄南河") 
 ```
 **效果：**  
 
-:open_mouth:  
+[点击查看**jcyu96**的GitHub主页](https://github.com/yujia96 "点击跳转")  
+
+![加载失败请刷新](https://github.com/yujia96/Github-Flavored-Markdown/blob/master/Examples/%E6%B9%84%E5%8D%97%E6%B2%B3.jpg "这是湄南河")  
 
 **备注：**  
-在两个 : 之间放入特定代码显示表情，表情代码在官网可以查询：[官方emoji代码](https://www.webfx.com/tools/emoji-cheat-sheet/)。
+一般对于上述两种语法格式表示的对象，都可以通过在后面url跟上一个被""引起来的文本（注意url和""之间需要添加一个空格），这个文本会在鼠标停留时显示在鼠标指针旁边。
 ***
