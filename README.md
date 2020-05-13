@@ -104,12 +104,12 @@ README
 ![可替换文本](图片的url "悬停显示的文本")  
 
 示例：  
-[点击查看**jcyu96**的GitHub主页](https://github.com/yujia96 "点击跳转")  
+[点击查看jcyu96的主页](https://github.com/yujia96 "点击跳转")  
 ![加载失败请刷新](https://github.com/yujia96/Github-Flavored-Markdown/blob/master/Examples/%E6%B9%84%E5%8D%97%E6%B2%B3.jpg "这是湄南河") 
 ```
 **效果：**  
 
-[点击查看**jcyu96**的GitHub主页](https://github.com/yujia96 "点击跳转")  
+[点击查看jcyu96的GitHub主页](https://github.com/yujia96 "点击跳转")  
 
 ![加载失败请刷新](https://github.com/yujia96/Github-Flavored-Markdown/blob/master/Examples/%E6%B9%84%E5%8D%97%E6%B2%B3.jpg "这是湄南河")  
 
