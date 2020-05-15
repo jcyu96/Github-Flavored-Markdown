@@ -1,5 +1,5 @@
 README  
-![badge](https://img.shields.io/badge/jcyu96-@qq.com-DarkOrange "作者")
+![badge](https://img.shields.io/badge/mail:-jcyu96@qq.com-DarkOrange "作者")
 ====
 主要记录一些不太容易查到的GFM(Github Flavored Markdown)语法规则，充当个人的markdown备忘录，所有内容完全由个人编辑记录。每个语法点都是由基本语法格式、终端显示效果和一些备注说明构成的，行文不当之处可以提出一起讨论。  
 内容持续更新中......  
